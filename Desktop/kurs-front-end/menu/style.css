@@ -1,0 +1,63 @@
+#about{
+    margin-top: 100px;
+    background-color: darkcyan;
+}
+#skills{
+    margin-top: 100px;
+}
+#portfolio{
+    margin-top: 100px;
+}
+#contact{
+    margin-top: 100px;
+}
+#a{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    float: left;
+}
+#b{
+    width: 50px;
+    height: 50px;
+    background-color: rebeccapurple;
+    margin-left: 50px;
+}
+#c{
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+    margin-left: 100px;
+    margin-top: -50px
+}
+#d{
+    width: 50px;
+    height: 50px;
+    background-color: skyblue;
+    margin-left: 150px;
+    margin-top: -50px
+}
+#x{
+    width: 50px;
+    height: 50px;
+    background-color: olive;
+}
+#y{
+    width: 50px;
+    height: 50px;
+    background-color: rosybrown;
+}
+#z{
+    width: 50px;
+    height: 50px;
+    background-color: magenta;
+}
+button{
+    font-family: monospace;
+    font-size: 15px;
+    background-color: maroon;
+    border-style: double;
+    color: azure;
+    height: 25px;
+    width: 80px;
+}
