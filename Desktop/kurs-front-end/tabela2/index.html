@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #tabela{
+            margin-top: 250px;
+            border-style: double;
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+        #top{
+            font-weight: bold;
+        }
+        tr, th{
+           border-style: double;
+           border-collapse: collapse; 
+           border-left: 1px solid black;
+           text-align: left;
+        }
+        
+    </style>
+</head>
+<body>
+   <center>
+        <table id="tabela">
+        <tr id="top">
+            <th>Kolumna 1</th>
+            <th>Kolumna 2</th>
+            <th>Kolumna 3</th>
+        </tr>
+        <tr>
+            <th>wiersz 1</th>
+            <th rowspan="2">wiersz 2</th>
+            <th>wiersz 3</th>
+        </tr>
+        <tr>
+            <th>wiersz 4</th>
+            <th>wiersz 5</th>
+        </tr>
+        <tr>
+            <th>wiersz 6</th>
+            <th>wiersz 7</th>
+            <th>wiersz 8</th>
+        </tr>
+
+    </table>
+    </center>
+</body>
+</html>
